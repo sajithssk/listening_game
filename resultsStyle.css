@@ -1,0 +1,45 @@
+/* This is the CSS file for the Results page */
+body{
+	background-color:pink;
+}
+table, th, td {
+	border: 3px solid black;
+	border-collapse: collapse;
+}
+
+#btnReset {
+	width: 120px;
+	margin: 15px 10px;
+	padding: 5px;
+	height: 40px;
+	margin: auto;
+	border: none;
+	border-radius: 4px;
+	background-color: dodgerblue;
+	color: white;
+	font-family: serif;
+	display: none;
+}
+
+#btnReset:hover {
+	border: 5px solid deepskyblue;
+}
+
+#btn1 {
+
+    text-decoration: none;
+    background-color: blue;
+    width: 120px;
+    margin-top:10px;
+    padding: 11.5px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-family: serif;
+
+}@media screen and (max-width: 800px) {
+    .choice-container {
+        min-width: 100%;
+    }
+}	
